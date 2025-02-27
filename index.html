@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hi, I'm Anjali</title>
+    <link rel="shortcut icon" href="https://anjalichavan3d.github.io/asset/doodle.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="search-bar-container">
+            <img src="https://www.svgrepo.com/show/450557/search.svg" height="22px" class="search-btn">
+            <input type="text" class="search-bar" placeholder="Search">
+        </div>
+        <!-- Dark Mode Toggle -->
+        <a onclick="myFunction()">
+            <div class="drk-toggle-btn"></div>
+        </a>
+        <!-- Profile Picture Trigger for User Info Modal -->
+        <a href="#" id="user-info-trigger">
+            <div class="pfp-img"></div>
+        </a>
+    </nav>
+
+    <div class="pinterest-grid"></div>
+
+    <!-- Modal for Media Pop-up -->
+    <div id="modal" class="modal">
+        <div class="modal-content" id="modal-media-container">
+            <span class="close" id="modal-close">&times;</span>
+            <!-- Media (image or video) is injected here -->
+        </div>
+    </div>
+
+    <!-- User Info Modal -->
+    <div id="user-info-modal" class="user-info-modal">
+        <div class="user-info-card">
+            <span class="close" id="user-info-close">&times;</span>
+            <div class="user-info-content">
+                <img class="user-info-avatar" src="pfp.png" alt="User Avatar">
+                <h2>Anjali Chavan 3D</h2>
+                <p>Artist, Designer, and Animator</p>
+                <p>Email: <a href="#">anjali@example.com</a></p>
+                <div>
+                    <a href="https://www.linkedin.com/in/anjali-chavan-9420342b0/" target="_blank">
+                        <img src="https://www.svgrepo.com/show/448234/linkedin.svg" height="25px" alt="">
+                    </a>
+                    <a href="https://www.instagram.com/artplay_anjali/" target="_blank">
+                        <img src="https://www.svgrepo.com/show/452229/instagram-1.svg" height="25px" alt="">
+                    </a>
+                    <a href="https://www.artstation.com/user-5343257" target="_blank">
+                        <img src="https://www.svgrepo.com/show/341618/artstation.svg" height="25px" alt="">
+                    </a>
+                    <a href="https://www.youtube.com/@ArtplayAnjali/" target="_blank">
+                        <img src="https://www.svgrepo.com/show/354592/youtube-icon.svg" height="25px" alt="">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="https://www.svgrepo.com/show/243051/docs.svg" height="25px" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
