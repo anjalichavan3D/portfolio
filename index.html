@@ -354,7 +354,7 @@
             const data = await response.json();
             // Filter out files with valid media extensions (images and videos)
             return data.filter((file) =>
-              /\.(jpg|png|jpeg|gif|mp4|webm|ogg)$/i.test(file.name)
+              /\.(jpg|png|jpeg|gif|m4v|mp4|webm|ogg)$/i.test(file.name)
             );
           }
         
